@@ -1,0 +1,107 @@
+:root {
+    --background-color: #1EA6C6;
+    --font-family: arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #1EA6C6;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cloud-container {
+    width: 100%; /* Full width of the viewport */
+    position: relative;
+    height: 100vh;
+}
+
+.cloud {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    color: var(--text-color);
+    width: 100%;
+}
+
+.cloud svg {
+    max-height: 200px;
+    height: auto;
+}
+
+.cloud h3 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 35px;
+    cursor: pointer;
+
+    color: black;
+    transition: color 0.3s;
+}
+
+.cloud svg:hover + h3 {
+    color: var(--background-color);
+} 
+
+#portfolio {
+    top: 5%;
+    /* left: -25%;    */
+    z-index: 0;
+    animation: slide 21s linear infinite; 
+    
+}
+
+#blog {
+    top: 25%;
+    /* left: 25%; */
+    z-index: 1;
+    animation: slide 20s linear infinite;
+}
+#linkedIn {
+    top: 65%;
+    /* left: 65%; */
+    z-index: 1;
+    animation: slide 22s linear infinite;
+}
+
+#cloud1 {
+    top: 15%;
+    /* left: 75%; */
+    z-index: 0;
+    animation: slide 24s linear infinite;
+}
+
+#cloud2 {
+    top: 35%;
+    /* left: 90%; */
+    z-index: 0;
+    animation: slide 22s linear infinite;
+}
+
+/* the lowest possible cloud */
+#cloud3 {
+    top: 75%;
+    /* left: 40%; */
+    z-index: 0;
+    animation: slide 25s linear infinite;
+    
+}
+
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(-60%);
+    }
+    100% {
+        transform: translateX(60%);
+    }
+}
+
+

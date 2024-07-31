@@ -1,0 +1,39 @@
+body {
+    background: #0082D5;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cloud_container {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide overflow to see the sliding effect clearly */
+    border: 2px solid black;
+    
+}
+
+.cloud {
+    position: absolute;
+    /* left: 100px; starting position */
+    display: inline-block; 
+    width: 200px;
+    height: auto;
+    
+
+}
+.cloud_image img{
+    width: 100%;
+    height: auto;
+}
+
+.cloud_label {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+} 
+
+
+#Portfolio {
+    left: 500px;
+    top: 75%;
+}
