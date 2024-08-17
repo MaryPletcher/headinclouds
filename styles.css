@@ -14,7 +14,7 @@ body {
 
 .cloud {
     position: absolute;
-    /* left: 100px; starting position */
+    left: -200;
     display: inline-block; 
     width: 200px;
     height: auto;
@@ -32,8 +32,3 @@ body {
     left: 25%;
 } 
 
-
-#Portfolio {
-    left: 500px;
-    top: 75%;
-}
