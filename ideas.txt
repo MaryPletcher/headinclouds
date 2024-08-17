@@ -1,1 +1,3 @@
 make it framed by a window 
+
+literally so proud that it adjusts the "restart" position when you adjust the width of the viewport ugh yes dynamic 

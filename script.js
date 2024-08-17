@@ -28,8 +28,6 @@ function slide() {
 
 }
 
-
-function startAnimation() {
-    slide(); // Start the animation
-}
-
+window.onload = function() {
+    slide();
+  };
