@@ -1,6 +1,7 @@
 :root {
     --background-color: #1EA6C6;
     --font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 body {
     background: #0082D5;
@@ -8,12 +9,32 @@ body {
     padding: 0px;
 }
 
+a {
+    color: inherit; /* This will inherit the color from the parent element */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: black;
+} 
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    flex: 1;
+    margin: 15px;
+    padding-left: 50px;
+    color: white;
+    
+}
+
+
 .cloud_container {
     position: relative;
     height: 100vh; /* Full viewport height */
     overflow: hidden; /* Hide overflow to see the sliding effect clearly */
-    border: 2px solid black;
-    
 }
 
 .cloud {
@@ -40,7 +61,7 @@ body {
     color: black;
     transition: color 0.3s;
 
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 .cloud:hover .cloud_label h3 {
@@ -72,15 +93,30 @@ body {
 
 #cloud2 {
     top: 400px;
+    left: 600px;
+    width: 150px;
 }
 
 
 #cloud3 {
     top: 500px;
     left: 550px;
+    width: 150px;
     
 }
 
 #cloud4 {
     top: 300px;
+}
+
+#cloud5 {
+    top: 150px;
+    left: -400px;
+    width: 150px;
+}
+
+#cloud6 {
+    top: 550px;
+    left: -200px;
+    width: 150px;
 }
