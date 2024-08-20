@@ -13,7 +13,7 @@ function slide() {
         let pos = ogPos;
 
         // clearInterval(animationId);
-        let randomFloat = getRandomFloat(8,15);
+        let randomFloat = getRandomFloat(10,20);
         animationId = setInterval(frame, randomFloat);
 
         function frame() {

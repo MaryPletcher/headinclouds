@@ -1,3 +1,7 @@
+:root {
+    --background-color: #1EA6C6;
+    --font-family: 'Poppins', sans-serif;
+}
 body {
     background: #0082D5;
     margin: 0px;
@@ -26,6 +30,23 @@ body {
     height: auto;
 }
 
+.cloud h3 {
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+
+    color: black;
+    transition: color 0.3s;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+.cloud:hover .cloud_label h3 {
+    color: var(--background-color);
+} 
+
 .cloud_label {
     position: absolute;
     top: 60%;
@@ -34,8 +55,32 @@ body {
 
 #Portfolio {
     top: 70px;
+    z-index: 1;
 }
 
 #LinkedIn {
     top: 250px;
+    z-index: 1;
+    left: 100px;
+}
+
+#cloud1 {
+    top: 5px;
+    left: 400px;
+    
+}
+
+#cloud2 {
+    top: 400px;
+}
+
+
+#cloud3 {
+    top: 500px;
+    left: 550px;
+    
+}
+
+#cloud4 {
+    top: 300px;
 }
