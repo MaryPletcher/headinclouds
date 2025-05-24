@@ -74,7 +74,7 @@ a:hover {
     left: 25%;
 } 
 
-#Portfolio {
+#Resume {
     top: 70px;
     z-index: 1;
 }
@@ -84,6 +84,13 @@ a:hover {
     z-index: 1;
     left: 100px;
 }
+
+#GitHub {
+    top: 450px;
+    z-index: 1;
+    left: 100px;
+}
+
 
 #cloud1 {
     top: 5px;
