@@ -30,6 +30,12 @@ a:hover {
     
 }
 
+.description p {
+    margin: 15px;
+    padding-left: 50px;
+    color: black;
+    font-size: 14px;
+}
 
 .cloud_container {
     position: relative;
@@ -55,7 +61,7 @@ a:hover {
     margin: 0;
     padding: 10px;
     border-radius: 5px;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 
     color: black;
@@ -70,27 +76,42 @@ a:hover {
 
 .cloud_label {
     position: absolute;
-    top: 60%;
-    left: 25%;
+    bottom: 10%;
+    left: 10%;
+    /* width: 100%; */
 } 
 
 #Resume {
     top: 70px;
-    z-index: 1;
+    z-index: 2;
 }
 
 #LinkedIn {
     top: 250px;
-    z-index: 1;
+    z-index: 2;
     left: 100px;
 }
 
 #GitHub {
     top: 450px;
-    z-index: 1;
+    z-index: 2;
     left: 100px;
 }
 
+#Brussels {
+    top: 175px;
+    z-index: 1;
+    left: 250px;
+    width: 150px;
+}
+
+
+#DearApothecary {
+    top: 215px;
+    z-index: 1;
+    left: 300px;
+    width: 170px;
+}
 
 #cloud1 {
     top: 5px;
